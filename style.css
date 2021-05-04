@@ -69,8 +69,10 @@ input{
     box-shadow: 0 2px 4px rgba(224, 217, 217, 0.5);
 }
 .button button:hover
-{ 
-      background-color:bisque;     
+{
+   
+      background-color:bisque;
+     
 }
 .result{
     position: relative;
@@ -79,10 +81,17 @@ input{
 label{
     font-weight: 600;
 }
-.amt
+.amt input
 {
-    font-family: Copperplate;
+    font-size: 18px;
+    padding: 10px 20px 10px 5px;
+    border: none;
+    background: white;
+    font-family: Didot, serif;
+    font-size: 15px;
+
 }
+
 h3{
     font-size: 20px;
 }
